@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "ES2022" ,
+    "module": "CommonJS",
+    "moduleResolution": "Node",
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "strict": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "jsx": "react-jsx",
+    "jsxImportSource": "hono/jsx",
+    "forceConsistentCasingInFileNames": true,
+    "types": ["node"],
+  },
+  "include": ["src/**/*"],
+  "exclude": [
+  "node_modules", 
+  "dist"
+]
+}

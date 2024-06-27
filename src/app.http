@@ -1,0 +1,39 @@
+
+GET http://localhost:8000/
+
+
+
+###
+GET http://localhost:8000/api/Books
+
+
+###
+GET  http://localhost:8000/api/Book/3
+
+###
+//create comment
+
+POST http://localhost:8000/api/Book
+Content-Type: application/json
+
+{
+       "Tittle": "nice",
+    "Author": "2021-09-09",
+    "year_published": "food"
+}
+
+
+###
+
+PUT http://localhost:8000/api/Book/1
+Content-Type: application/json
+
+{
+    "Tittle": "nice",
+    "Author": "2021-09-09",
+    "year_published": "food"
+    
+}
+
+###
+DELETE  http://localhost:8000/api/Book/2
